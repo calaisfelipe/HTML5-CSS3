@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes e elementos</title>
+    <style>
+body{
+font: normal 1em arial, helvetica, sans-serif;
+
+}
+
+a{ font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited{ color:darkred;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.especial:hover{ color:white;
+    background-color: black;
+    text-decoration: none;
+}
+.especial::after{
+    content: '>>';
+    font-weight: lighter;
+}
+
+    </style>
+</head>
+<body>
+<h1>Personalizando um link</h1>
+<p>Para aprender HTML5 e CSS3, acesse o <a href="#">Github di guanabara</a></p>
+
+<p>Se quiser mais sobre os padroes, visite o site do <a href="#">Escritorio do w3c no brasil</a></p>
+
+<p>Para acompanhar os cursos, acesso o <a class="especial" href="https://www.youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank">canal do curso em video</a></p>
+    
+
+
+
+</body>
+</html>
