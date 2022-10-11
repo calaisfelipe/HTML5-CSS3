@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/carro.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Revenda de Carros</title>
+</head>
+<body>
+    <header>
+    <h1>Parcelamento Veicular</h1>
+    <p>Por @calaisfelipe</p>
+</header>
+<main>
+
+    <div id="container1">
+        <label for="vec">Veículo:
+            <input class="campo" type="text" name="carname" id="nomecar" placeholder="Nome do carro"></label>
+    </div>
+
+    <div>
+        <label for="val">Valor:
+            <input class="campo" type="number" name="valcarro" id="valcarro" placeholder="Preço do carro"></label>
+    </div>
+
+    <div>
+        <label for="entr">Entrada(%):
+            <input class="campo" type="number" name="porcent" id="porcent" placeholder="30 a 90"></label>
+        </div>
+
+    <div>
+        <label for="qtdparc">Qtd de Parcelas:
+            <select name="parcelas" id="parc">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="container2">
+        <input class="bttn" type="button" value="Calcular" onclick="calc()">
+        <input class="bttn" type="button" value="Limpar" onclick="limpa()">
+    </div>
+
+    <hr>
+    
+    <div id="result"></div>
+
+</main>
+
+
+<script src="carros.js"></script>
+</body>
+</html>

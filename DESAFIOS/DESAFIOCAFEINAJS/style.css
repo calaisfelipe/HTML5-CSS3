@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root{
+    --font01:'Roboto', sans-serif;
+    --font02:'Audiowide', cursive;
+    --cor01:#827773;
+    --cor02:#BBBDB0;
+    --cor03:#AB294B;
+    --cor04:#2D2034;
+}
+
+*{
+    font-family: var(--font01);
+    margin: 0;
+    font-weight: bolder;
+}
+
+body{ background-image: url(imagens/pexels-pixabay-164634\ \(1\).jpg);
+background-repeat: no-repeat;
+background-position: right center;
+background-size: cover;
+background-attachment: fixed;}
+
+
+header {text-align: center;
+color: #AB294B;
+font-weight: bolder;
+background-color: black;
+padding: 10px;
+
+}
+
+header > h1{ 
+    font-family: 'Audiowide', cursive;
+    font-variant: small-caps;
+    animation: neon 5s infinite;
+    font-size: 3em;
+}
+
+@keyframes neon {
+    0% , 39%, 41%, 59%, 61%, 100% {
+        text-shadow:
+        white 0 0 12px,
+        #AB294B 0 0 24px,
+        #AB294B 0 0 36px; 
+    }
+    40%, 60%{
+    text-shadow: none;
+    }
+}
+
+
+
+
+main{ 
+    background-color:white;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 320px;
+    max-height: 500px;
+    margin: auto;
+    border-radius: 0  0 10px 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.288);
+}
+
+div{ text-align: center;
+padding: 10px;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);}
+
+
+#container1 {
+    text-align: center;
+
+}
+
+#container2 {
+    text-align: center;
+
+}
+
+#container2 > input{
+    color:white;
+    border-style: none;
+    background-color: #AB294B;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    
+}
+
+label{
+    font-size: 1.2em;
+}
+
+.campo{
+    border-style: none;
+    background-color: #bbbdb094;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+}
+
+
+#container2 > input:hover{
+background-color: #64182e;
+transition-duration: .5s;
+}
+
+#result{
+font-size: 1.2em;
+line-height: 1.5em;
+
+}
