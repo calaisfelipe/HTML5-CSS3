@@ -28,10 +28,12 @@ background-attachment: fixed;}
 header {text-align: center;
 color: #AB294B;
 font-weight: bolder;
-background-color: black;
+background-color: transparent;
 padding: 10px;
 
 }
+
+
 
 header > h1{ 
     font-family: 'Audiowide', cursive;
@@ -56,13 +58,14 @@ header > h1{
 
 
 main{ 
+    padding-top: 30px;
     background-color:white;
     min-width: 320px;
     max-width: 500px;
     min-height: 320px;
     max-height: 500px;
     margin: auto;
-    border-radius: 0  0 10px 10px;
+    border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.288);
 }
 
@@ -105,12 +108,22 @@ label{
 
 
 #container2 > input:hover{
-background-color: #64182e;
+background-color: white;
+border-style: solid;
+color: #AB294B;
 transition-duration: .5s;
+cursor: pointer;
 }
 
 #result{
 font-size: 1.2em;
 line-height: 1.5em;
+
+}
+
+footer > p {
+    display: inline-block;
+    background-color: black;
+    text-align: center;
 
 }
