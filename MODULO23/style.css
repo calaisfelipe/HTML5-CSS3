@@ -58,11 +58,13 @@ align-items: flex-end;}
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    box-sizing: border-box;
 }
 
 .icon:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
     border-style: solid;
-    border-color: rgb(155, 139, 120);
+    border-color: rgb(138, 127, 113);
     transition-duration: .5s;
+    transform: translate(-3px, -3px);
 }
