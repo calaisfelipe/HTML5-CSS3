@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 07</title>
+</head>
+<body>
+    <h1>Exemplos de Formularios</h1>
+    <form action="script.js" method="post">
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="iselect">Estados:</label>
+            <select name="iselect" id="iselect">
+
+                <option value="" selected>----Escolha----</option>
+                <optgroup label="Sudeste">
+                    <option value="MG">MG</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                </optgroup>
+                
+                
+                
+                    <optgroup label="Outros">
+                        <option value="BA">BA</option>
+                        <option value="ES">ES</option>
+                        <option value="AL">AL</option>
+                    </optgroup>
+           
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="iprof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option value="TI"> Técnico em Informatica</option>
+                <option value="PRO">Programador</option>
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fale Conosco</legend>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="imsg" id="imsg" cols="30" rows="10"></textarea>
+            
+            
+            
+        </fieldset>
+
+
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+    </form>
+    
+</body>
+</html>

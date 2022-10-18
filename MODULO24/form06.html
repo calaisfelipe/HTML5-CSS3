@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 06</title>
+    <Style>
+        *{accent-color: orange;}
+    </Style>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="script.js" method="post">
+        <fieldset>
+            <legend>Cores</legend>
+                <label for="icor">Escolha uma cor:</label>
+                <input type="color" name="icor" id="icor" value="#FF0000">
+
+            <p>
+                
+                    <input type="submit"
+                 value="Enviar">
+                 <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+<fieldset>
+    <legend>Satisfação</legend>
+
+<label for="irange">Nivel de satisfação:</label>
+<input type="range" name="irange" id="irange" min="0" max="1000">
+
+</fieldset>
+
+<fieldset>
+    <legend>Foto de Perfil</legend>
+    <label for="ifile">Upload de foto:</label>
+    <input type="file" name="ifile" id="ifile">
+</fieldset>
+
+
+
+    </form>
+    
+</body>
+</html>

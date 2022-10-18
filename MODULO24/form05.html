@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 05</title>
+</head>
+<body>
+    <h1>Exemplo de Formularios</h1>
+
+    <form action="script.js" method="post" autocomplete="on">
+
+<fieldset>
+    <legend>Sexo</legend>
+    <label for="ifem">Feminino</label>
+    <input type="radio" name="isexo" id="ifem" value="F">
+    <label for="imasc">Masculino</label>
+    <input type="radio" name="isexo" id="imasc" value="M">
+</fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+             
+                    <label for="ifoot">Futebol</label>
+                    <input type="checkbox" name="ifoot" id="ifoot" checked>
+                
+                    <label for="ivolei">Volei</label>
+                    <input type="checkbox" name="ivolei" id="ivolei" checked>
+                
+                    <label for="ibasket">Basquete</label>
+                    <input type="checkbox" name="ibasket" id="ibasket">
+             
+                    <label for="icorrida">Corrida</label>
+                    <input type="checkbox" name="icorrida" id="icorrida">
+               
+        </fieldset>
+            <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"></p>
+    </form>
+
+</body>
+</html>
