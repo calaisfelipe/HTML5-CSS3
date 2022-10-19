@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
-/* EM PÉ PORTRADE */ 
+/* EM PÉ PORTRAIT */ 
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
