@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+/* Typical Devices Breakpoints
+320px — 480px: dispositivos móveis.
+481px — 768px: iPads, tablets.
+769px — 1024px: telas pequenas, laptops.
+1025px — 1200px: desktops, telas grandes.
+1201px e acima — telas muito grandes, TVs. */
+
+@media print{
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    #iphone{display: none;}
+    #iprint{display: block;}
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+    body{ background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #iphone{ display: none;}
+    #itablet{display: block;}
+}
+
+
+@media screen and ( min-width: 1025px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #iphone{display:none}
+    #idesk{display:block}
+
+}
+
+@media screen and (min-width:1201px){
+   body{ background-image: url(../imagens/back-tv.jpg);
+   }
+
+   #iphone{display:none;}
+   #itv{display:block}
+} 
