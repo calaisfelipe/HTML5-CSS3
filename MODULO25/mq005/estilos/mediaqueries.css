@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* -----------CSS - MEDIA QUERIES----------- */
+
+@media print{
+
+
+}
+
+@media screen and (min-width:768px){
+
+    #burguer{display: none;}
+
+    menu{display: block;}
+    
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu> ul> li> a{
+    background-color: rgb(87, 87, 87);
+    display: inline-block;
+    margin-left: 5px;
+    padding: 10px;
+    border-top: 3px solid grey;
+    text-align: center;
+    text-decoration: none;
+    color: white; 
+}
+
+li > a:hover{
+    cursor: pointer;
+    background-color: #808080;
+}
+
+main{width: 768px;}
+
+
+}
+
+/*@media screen and (min-width:1025px) and (max-width:1200px){}
+
+
+@media screen and (min-width:1201px){}*/
