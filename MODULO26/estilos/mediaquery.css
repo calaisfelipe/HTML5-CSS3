@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#908873;
+    --cor2:#D0BB8E;
+    --cor3:#897D57;
+    --cor4:#3C3731; 
+    --cor5:#FEDF82;
+}
+
+*{padding:0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+}
+
+
+@media screen and (min-width:681px){
+
+    body{
+    background-color: var(--cor4);
+}
+
+section{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+}
+
+
+}

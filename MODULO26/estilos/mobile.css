@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+:root{
+        --cor1:#908873;
+        --cor2:#D0BB8E;
+        --cor3:#897D57;
+        --cor4:#3C3731; 
+        --cor5:#FEDF82;
+}
+
+
+*{padding:0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+}
+
+body{ background-color: var(--cor5);}
+
+
+section{
+  background-color: white;
+
+    width: 320px;
+    height: 480px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+
+}
+
+fieldset{ height: 250px;
+max-width: 320px;
+border-radius: 10px;
+border-style: none;
+text-align: center;
+padding: 20px;
+
+
+}
+
+form{
+border-radius: 10px;}
+
+legend{
+    color: var(--cor4);
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: smaller;
+}
+
+.links:hover{
+text-decoration: underline;
+}
+
+#divlinks{  
+    margin-top: 3px;
+display: flex;
+justify-content: space-between;}
+
+
+
+.campos{
+    border-style: none;
+    border-bottom: 2px solid #3C3731;
+    width: 230px;
+    height: 30px;
+}
+
+.campos:hover{
+    background-color: #FEDF82;
+}
+
+#btnlogin{
+    color:var(--cor4);
+    background-color: var(--cor5);
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 230px;  
+    font-size: 1.1em;  
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+    
+}
+
+#btnlogin:hover{
+    background-color: var(--cor4);
+    color: white;
+    transition-duration: .5s;
+}
+
+#divbtn{margin-top: 20px;}
+
+#icon1, #icon2{
+    color: var(--cor3);
+    
+}
+
+#divimg{
+    text-align: center;
+ 
+}
+#imgprog{
+  height: 230px;
+  
+  
+}

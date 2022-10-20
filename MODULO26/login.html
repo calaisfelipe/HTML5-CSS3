@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>
+    <main>
+        <section>
+            
+                <div id="divformulario">
+                    <form action="script.js" method="post">
+                        <fieldset>
+                            <legend>Login</legend>
+
+                        <div><label for="iusu"><i id="icon1" class="material-symbols-outlined">person</i></label>
+                        <input class="campos" type="email" name="iusu" id="iusu" required autocomplete="email" placeholder="Entre com seu E-mail"></div>
+
+                        <div> <label for="ipass"><i id="icon2" class="material-symbols-outlined">
+                        lock</i></label>
+                        <input class="campos" type="password" name="ipass" id="ipass" required min="6" autocomplete="current-password" placeholder="Escreva Sua Senha"></div>
+                    
+                        <div id="divlinks"><a id="link1" class="links" href="#">Esqueceu a senha?</a> <a id="link2" href="#" class="links">Cadastre-se</a></div>
+                        
+                        <div id="divbtn"><input id="btnlogin" type="submit" value="LOGIN"></div>
+                        </fieldset>
+                                   
+                                 </form>
+                </div>
+             <div id="divimg"><img id="imgprog" src="imagens/programadorpeqatualizado.png" alt=""></div>
+
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
