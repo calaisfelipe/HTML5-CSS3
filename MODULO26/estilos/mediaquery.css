@@ -18,7 +18,7 @@ box-sizing: border-box;
 @media screen and (min-width: 769px) and (max-width:1024px) {
 
 section{
-    height: 50vh;
+    height: 60vh;
     width: 80vw;
     transition: width .2s;
 }
