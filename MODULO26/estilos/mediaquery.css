@@ -20,7 +20,7 @@ box-sizing: border-box;
 section{
     height: 50vh;
     width: 80vw;
-
+    transition: width .2s;
 }
 
 #divlinks{margin-top: 7px;}
@@ -48,6 +48,7 @@ legend{
 section{
     height: 60vh;
     width: 80vw;
+    transition: width .2s;
 
 }
 
@@ -98,6 +99,7 @@ fieldset{
     section{
         height: 70vh;
         width: 80vw;
+        transition: width .2s;
     
     }
     
