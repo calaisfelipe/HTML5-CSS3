@@ -15,30 +15,133 @@ box-sizing: border-box;
 }
 
 
-@media screen and (min-width: 769px){
-
-    body{
-    background-color: var(--cor4);
-}
+@media screen and (min-width: 769px) and (max-width:1024px) {
 
 section{
+    height: 50vh;
     width: 80vw;
-    height: 80vh;
-    background-color: white;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+
 }
 
+#divlinks{margin-top: 7px;}
 
-fieldset{ height: 250px;
-    max-width: 320px;
-    border-radius: 10px;
-    border-style: none;
-    text-align: center;
-    padding: 20px;
+legend{
+    font-size: 2.5em;
+}
+
+#divimg{
+    float:left;
+    width: 40%;
+}
+#divformulario{
+    float:right;
+    width: 60%;
+}
+
+#imgprog{height: 270px;}
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+
+section{
+    height: 60vh;
+    width: 80vw;
+
+}
+
+#divformulario{
+    float:left;
+    width: 50%;
+    height: 100%;
+   
+}
+
+legend{font-size: 3em;}
+
+#divlinks{margin-top: 10px;}
+
+fieldset{
+
+    margin:auto;
+}
+
+#divimg{
+    float: right;
+    height: 100%;
+    width: 50%;
+
+}
+
+#imgprog{height: 400px;}
+
+
+#divlinks > a{
+   font-size:small;
+}
+
+.campos{
+    width: 250px;
+    height: 50px;
+}
+
+#btnlogin{
+    font-size: 1.3em;
+    width: 300px;
+}
+
+}
+
+@media screen and (min-width:1201px){
+
+    section{
+        height: 70vh;
+        width: 80vw;
+    
+    }
+    
+    #divformulario{
+        float:left;
+        width: 50%;
+        height: 100%;
+       
+    }
+    
+    legend{font-size: 3.2em;}
+    
+    #divlinks{margin-top: 12px;}
+    
+    fieldset{
+    
+        margin:auto;
+    }
+    
+    #divimg{
+        float: right;
+        height: 100%;
+        width: 50%;
+    
+    }
+    
+    #imgprog{height: 440px;}
+    
+    
+    #divlinks > a{
+       font-size:medium;
+    }
+    
+    .campos{
+        width: 280px;
+        height: 65px;
+    }
+    
+    #btnlogin{
+        font-size: 1.4em;
+        width: 320px;
     }
 
+
+
 }
+
