@@ -112,8 +112,11 @@ justify-content: space-between;}
 
 #icon1, #icon2{
     color: var(--cor3);
+    font-weight: bolder;
     
 }
+
+
 
 #divimg{
     text-align: center;

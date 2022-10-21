@@ -21,6 +21,7 @@ section{
     height: 60vh;
     width: 80vw;
     transition: width .2s;
+    transition-timing-function: ease;
 }
 
 #divlinks{margin-top: 7px;}
@@ -49,6 +50,7 @@ section{
     height: 60vh;
     width: 80vw;
     transition: width .2s;
+    transition-timing-function: ease;
 
 }
 
@@ -100,6 +102,7 @@ fieldset{
         height: 70vh;
         width: 80vw;
         transition: width .2s;
+        transition-timing-function: ease;
     
     }
     
