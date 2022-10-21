@@ -15,7 +15,7 @@ box-sizing: border-box;
 }
 
 
-@media screen and (min-width:681px){
+@media screen and (min-width: 769px){
 
     body{
     background-color: var(--cor4);
@@ -32,5 +32,13 @@ section{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
 }
 
+
+fieldset{ height: 250px;
+    max-width: 320px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    padding: 20px;
+    }
 
 }

@@ -16,16 +16,26 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 box-sizing: border-box;
 }
 
-body{ background-color: var(--cor5);}
+body, html{ background-color: var(--cor5);
+height: 100vh;
+width: 100vw;}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
 
 section{
-  background-color: white;
 
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;    
     width: 320px;
     height: 480px;
-    margin: auto;
-    margin-top: 40px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
@@ -38,8 +48,6 @@ border-radius: 10px;
 border-style: none;
 text-align: center;
 padding: 20px;
-
-
 }
 
 form{
