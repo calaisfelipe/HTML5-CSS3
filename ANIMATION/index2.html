@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações 2</title>
+
+    <style>
+
+        body{display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+        }
+
+        .fade{
+            animation-name: fadeOut;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+       
+            background-color: #007bff;
+            width: 100px;
+            height: 100px;
+            
+        }
+
+        @keyframes fadeOut{
+            0% {opacity: 0;
+            transform: scale(0.1);}
+
+            60%{transform: scale(1.2);
+                opacity: 1;
+
+            }
+            100%{transform: scale(1);
+            }
+            
+        }
+
+        .morph{
+            animation: morphAnimation 2s;
+            animation-timing-function: c;
+            background-color: #007bff;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            width: 100px;
+            height: 100px;
+            
+        }
+
+
+        @keyframes morphAnimation {
+
+            0%  {border-radius: 0;}
+            50%{ border-radius: 50% 0 50% 0;
+            transform: rotate(180deg);}
+            75%{ border-radius: 0% 50% 0 50%;}
+            100%{border-radius: 50%;}
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="morph"></div>
+    
+</body>
+</html>
