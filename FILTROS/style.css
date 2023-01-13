@@ -1,0 +1,37 @@
+.row{
+    gap:20px
+}
+
+
+#img-1{
+ filter: grayscale(100%);   
+}
+
+#img-2{
+    filter: contrast(30%);
+}
+
+#img-3{
+    filter: invert(.6);
+}
+
+#img-4{
+    filter: brightness(40%);
+}
+
+#img-5{
+    filter: blur(10px);
+}
+
+#img-6{
+    filter:sepia(100%); 
+}
+
+
+#img-7{
+    filter: opacity(.3);
+}
+
+#img-8{
+    filter: saturate(3);
+}
