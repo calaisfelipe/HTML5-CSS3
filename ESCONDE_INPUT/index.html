@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <style>
+        body{
+            background-color: #007bff;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .input-container{
+            position: relative;
+        }
+
+        #ipass{
+            margin-top: 10em;
+            padding: 5px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .btn{
+            position: absolute;
+            top:87%;
+            left: 85%;
+
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="input-container">
+    <input type="password" name="ipass" id="ipass" placeholder="Digite sua senha"  >
+    <button class="btn"><i class="bi bi-eye-fill"></i></button>
+
+    </div>
+
+    <script>
+
+        const inputPassword = document.querySelector('#ipass')
+        const btnEye = document.querySelector('.btn')
+        const icon = document.querySelector('.bi') 
+
+        btnEye.addEventListener('click', () =>{
+
+          if(inputPassword.type == 'password'){
+            inputPassword.setAttribute('type', 'text')
+            icon.classList.remove('bi-eye-fill')
+            icon.classList.add('bi-eye-slash-fill')
+          }else{
+            inputPassword.setAttribute('type', 'password')
+            icon.classList.remove('bi-eye-slash-fill')
+            icon.classList.add('bi-eye-fill')
+          }
+
+        })
+
+
+    </script>
+
+
+
+</body>
+</html>
